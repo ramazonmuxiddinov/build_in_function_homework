@@ -1,12 +1,5 @@
 def main(x, y):
-    """Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. README.md faylida berilgan ifodaning qiymatini qaytaring.
-    https://github.com/codeschool43/Build_in_function_homework#build_func07
-
-    Argümentlar:
-        x (int): butun son
-        y (int): butun son
-        
-    Qaytish:
-        int: ifodaning qiymati
-    """
-    return
+      from math import pow
+      a=pow(x,2)+6*pow(x,3)+3*x*y
+      return a
+print(main(5,2))

@@ -1,11 +1,4 @@
-def main():
-    """README.md faylida berilgan ifodaning qiymatini qaytaring.
-    https://github.com/codeschool43/Build_in_function_homework#build_func02
-
-    Argümentlar:
-        Hech narsa yo'q
-        
-    Qaytish:
-        float: ifodaning qiymati
-    """
-    return
+def main(n):
+    a=round(n,2)
+    return a
+print(main(3*(7/5-9/4)))
